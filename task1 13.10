@@ -1,0 +1,10 @@
+Message = input()
+a = int()
+b = int()
+for i in range(0,len(Message)):
+    a = a + 23
+    i+=1
+if a > 100:
+    b = a%100
+print((a - b)/100,"р.",b,"коп.")
+
