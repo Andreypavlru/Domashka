@@ -1,0 +1,12 @@
+
+a = int(input())
+b = int(input())
+a1 = int(input())
+b1 = int(input())
+da = abs(a - a1)
+db = abs(b - b1)
+if da == 2 and db == 5 or da == 5 and db == 2:
+    print("YESSSS!")
+else:
+    print("No no")
+
