@@ -5,6 +5,6 @@ def fibb(n):
         return 1
     else:
         return fibb(n-1) + fibb(n-2)
-
-for i in range (0,15):
-    print(fibb(i))
+N = int(input())
+for i in range (0,N):
+    print(fibb(i), end = ', ')
